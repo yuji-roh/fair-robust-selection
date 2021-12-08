@@ -1,0 +1,4 @@
+This directory contains 11 numpy files for synthetic data.
+The synthetic data contains training set, validation set, and test set.
+Note that the validation set is for another method in the paper (i.e., FR-Train), 
+so it is not used in this simulation.
