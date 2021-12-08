@@ -1,3 +1,9 @@
+# Sample Selection for Fair and Robust Training
+
+#### Authors: Yuji Roh, Kangwook Lee, Steven Euijong Whang, and Changho Suh
+#### In Proceedings of the 35th Conference on Neural Information Processing Systems (NeurIPS), 2021
+----------------------------------------------------------------------
+
 This directory is for simulating fair and robust sample selection on the 
 synthetic dataset. The program needs PyTorch, Jupyter Notebook, and CUDA.
 
@@ -7,9 +13,11 @@ and the child directory containing 11 numpy files for synthetic data.
 The synthetic data contains training set, validation set, and test set.
 Note that the validation set is for another method in the paper (i.e., FR-Train), 
 so it is not used in this simulation.
+
 ----------------------------------------------------------------------
-To simulate the algorithm, please use the jupyter notebook in the directory.
+#### To simulate the algorithm, please use the jupyter notebook in the directory.
 ----------------------------------------------------------------------
+
 The jupyter notebook will load the data and train the models with two 
 different fairness metrics: equalized odds and demographic parity.
 
