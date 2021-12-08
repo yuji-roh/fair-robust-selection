@@ -14,9 +14,7 @@ The synthetic data contains training set, validation set, and test set.
 Note that the validation set is for another method in the paper (i.e., FR-Train), 
 so it is not used in this simulation.
 
-----------------------------------------------------------------------
 #### To simulate the algorithm, please use the jupyter notebook in the directory.
-----------------------------------------------------------------------
 
 The jupyter notebook will load the data and train the models with two 
 different fairness metrics: equalized odds and demographic parity.
